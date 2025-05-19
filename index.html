@@ -6,29 +6,63 @@
     <title>Star Wars</title>
     <style>
         @import url(stájlus.css);
+body {
+    background-image: url(harc.jpg);
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-size: cover;
+}
     </style>
 </head>
-<body>
-    A következő weboldal a Star Wars előzményeit a "prequels"-eket mutatja be
-    <table style="width: 30%; text-align: center;" id="table">
+<body class="test">
+    <h1 style="text-align: center; font-size: 60px;">Star Wars</h1>
+    <h2 style="text-align: center; font-size: 40px;">A következő weboldal a Star Wars előzményeit a "prequels"-eket mutatja be</h2>
+    <table style="text-align: center;" class="tabla">
         <tr>
             <td>
-                I. rész <br>
-                Baljós árnyak
+                <h3 style="color: blue;">
+                    I. rész <br>
+                    Baljós árnyak
+                </h3>
             </td>
             <td>
-                II. rész <br>
-                A klónok támadása
+                <h3>
+                    II. rész <br>
+                    A klónok támadása
+                </h3>
             </td>
             <td>
-                III. rész <br>
-                A Sith-ek bosszúja
+                <h3 style="color: rgb(255, 0, 0);">
+                    III. rész <br>
+                    A Sith-ek bosszúja
+                </h3>
             </td>
         </tr>
         <tr>
-            <td><img src="sw1.jpeg" alt="Star Wars 1 Baljós árnyak" height="500px"></td>
-            <td><img src="sw2.jpeg" alt="Star Wars 2 A klónok támadása" height="500px"></td>
-            <td><img src="sw3.jpg" alt="Star Wars 3 A Sith-ek bosszúja" height="500px"></td>
+            
+            <td>
+                <a href="1. Rész.html">
+                    <img src="sw1.jpeg" alt="Star Wars 1 Baljós árnyak" height="500px">
+                </a>
+            </td>
+            
+
+            
+
+            <td>
+                <a href="2. Rész.html">
+                    <img src="sw2.jpeg" alt="Star Wars 2 A klónok támadása" height="500px">
+                </a>
+            </td>
+            
+
+            
+            <td>
+                <a href="3. Rész.html">
+                    <img src="sw3.jpg" alt="Star Wars 3 A Sith-ek bosszúja" height="500px">
+                </a>
+            </td>
+            
         </tr>
     </table>
 </body>

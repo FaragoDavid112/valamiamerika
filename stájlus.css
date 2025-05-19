@@ -1,4 +1,9 @@
-#table (
-    margin-left: auto;
-    margin-right: auto;
-)
+.tabla {
+margin: auto;
+}
+.test {
+    color: rgb(255, 255, 255);
+}
+h3 {
+    font-size: 30px;
+}
