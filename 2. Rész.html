@@ -6,53 +6,85 @@
     <title>A klónok támadása</title>
     <style>
         @import url(mellekoldalak.css);
+        body {
+    background-image: url(resz2hatter.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+a:link {
+  color: rgb(245, 248, 80);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(245, 248, 80);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+@font-face {
+  font-family: StarWars;
+  src: url(betustilus.otf);
+}
+
+* {
+  font-family: StarWars;
+}
     </style>
 </head>
 <body>
          <H1>A klónok támadása</H1>
 
-<table>
-    <tr>
-        <td class="boritokep">
-        <img src="klonoktamadasa.jpg" alt="Boritókép" height="10%" >
-        </td>
-    </tr>
-</table>
-
-<table>
-    <th>Infó az előzményekről</th>
-
-<div>
-    <tr>
+<table style="width: auto%; margin: auto;">
+    <thead>Infó az előzményekről</thead>
+    <tr class="tablazat">
         <td>Név</td> 
         <td>Főszereplők</td> 
         <td>Kiadás dátuma</td>
     </tr>
-    <tr>
+    <tr class="tablazat">
         <td>Baljós árnyak</td> 
         <td>Qui-Gon Jinn, Anakin Skywalker, Obi Wan</td> 
         <td>1999. május 19.</td>
     </tr>
-    <tr>
+    <tr class="tablazat">
         <td>A klónok támadása</td> 
         <td>Obi Wan, Padmé, Anakin Skywalker</td> 
         <td>2002. május 16.</td>
     </tr>
-    <tr>
+    <tr class="tablazat">
         <td>A Sith-ek bosszúja</td> 
         <td>Obi Wan, Anakin Skywalker, Palpatine</td> 
         <td>2005. május 19.</td>
     </tr>
+</table>
+
+<div style="float: right;">
+        <img src="klonoktamadasa.jpg" alt="Boritókép" height=1200px>
 </div>
 
+<table>
 <div>
     <tr>
-        <td><img src="Qui-Gon Jinn.jpg" alt="Qui-Gon Jinn" width="850px"></td>
-        <td><img src="Anakin.jpg" alt="Anakin Skywalker" width="850px"></td>
+        <td><img src="padme.jpg" alt="padme" width="850px"></td>
+        <td><img src="idosebbanakin.jpg" alt="Anakin Skywalker" width="555px"></td>
     </tr>
     <tr>
-        <td>Ez a rész legfontosabb szereplője Qui-Gon Jinn</td>
-        <td>A film sorozat legfontosabb szereplője Anakin Skywalker</td>
+        <td>Padme: Fontos személy a sorozatba, mert miatta kerül a rossz oldalra Anakin és ő az anyja két későbbi karakternek.</td>
+        <td>Anakin: Ebben a részben is fontos, mert ebben amik történnek később erősen befolyásolják a filmeket.</td>
     </tr>
 </div>
     </table>
@@ -82,8 +114,10 @@
         <p>
         Az előzmények később jöttek ki, mint a többi rész, ez a rész megmutatta hogy találták meg Anakint, és ki volt Obi Wan mestere.
         </p>
+        <div>
         <a href="index.html">Vissza a főoldalra</a> <br>
         <a href="3. Rész.html">Következő rész</a> <br>
         <a href="1. Rész.html">Előző rész</a>
+        <div></div>
 </body>
 </html>
