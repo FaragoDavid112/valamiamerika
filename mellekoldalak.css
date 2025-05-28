@@ -4,7 +4,17 @@
 * {
     color: rgb(253, 255, 120);
     font-size: larger;
-    font-family: starw;
 }
-
-
+h1 {
+font-size: 100px; 
+text-align: center;
+}
+.tabli {
+border: 10px solid rgb(253, 255, 120);
+border-collapse: collapse;
+}
+#fej {
+    font-size: 60px; 
+    text-align: center; 
+    border: 10px solid rgb(253, 255, 120);
+}
